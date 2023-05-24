@@ -1,0 +1,53 @@
+h1
+{
+    color:#161315;
+}
+
+body {
+    background-color: #7936af67;
+}
+p {
+    color: #000000;  /* Change la couleur du texte en rouge */
+    font-size: 20px; /* Change la taille du texte à 20 pixels */
+    font-family: Arial, sans-serif; /* Change la police du texte en Arial, et utilise une police sans-serif si Arial n'est pas disponible */
+    display: flex;
+    flex-direction: column;
+}
+
+
+img {
+    width: 350px;
+    height: auto;
+    flex: auto;
+}
+img {
+    transition: transform 0.6s ease-in-out;
+}
+
+img:hover {
+    transform: scale(1.3);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    align-items: center;      /* Centrer les éléments verticalement */
+    top: 0;
+    background-color: #0a0d94;
+    height: 80px;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    margin: 0 100px;
+    
+}
+
+nav a:hover {
+    color: #00a136;
+}
+audio {
+    filter: invert(1) hue-rotate(180deg);
+}
